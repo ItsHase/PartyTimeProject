@@ -1129,6 +1129,10 @@ section {
   background-color: #2e3135;
 }
 
+.alt-services-text {
+  vertical-align: middle;
+}
+
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
@@ -1190,9 +1194,15 @@ section {
 }
 
 .alt-services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
+  margin-left: 30px;
+  line-height: 32px;
+  font-size: 28px;
   margin-bottom: 0;
+}
+
+.map {
+  min-height: 800px;
+  background-color: #888888;
 }
 
 /*--------------------------------------------------------------
@@ -1794,6 +1804,7 @@ section {
 .recent-blog-posts .post-item {
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
   transition: 0.3s;
+  background-color: #444444;
 }
 
 .recent-blog-posts .post-item .post-img img {
@@ -1818,7 +1829,7 @@ section {
 
 .recent-blog-posts .post-item .post-title {
   font-size: 24px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: 700;
   transition: 0.3s;
   margin-bottom: 15px;
@@ -1862,6 +1873,87 @@ section {
 .recent-blog-posts .post-item:hover .post-img img {
   transform: scale(1.1);
 }
+
+.offers .post-item {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+  background-color: #717171;
+}
+
+.offers .post-item .post-img img {
+  transition: 0.5s;
+}
+
+.offers .post-item .post-date {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 6px 12px;
+  font-weight: 500;
+}
+
+.offers .post-item .post-content {
+  padding: 30px;
+}
+
+.offers .post-item .post-title {
+  font-size: 24px;
+  color: var(--color-primary);
+  font-weight: 700;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+
+.offers .post-item .meta i {
+  font-size: 16px;
+  color: var(--color-primary);
+}
+
+.offers .post-item .meta span {
+  font-size: 15px;
+  color: #838893;
+}
+
+.offers .post-item hr {
+  color: #888;
+  margin: 20px 0;
+}
+
+.offers .post-item .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+  color: var(--color-primary);
+}
+
+.offers .post-item .readmore i {
+  line-height: 0;
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.offers .post-item:hover .post-title,
+.offers .post-item:hover .readmore {
+  color: var(--color-primary);
+}
+
+.offers .post-item:hover .post-img img {
+  transform: scale(1.1);
+}
+
+.offers
+{
+  background-color: #5C5C5C;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -2697,4 +2789,15 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #181818;
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
