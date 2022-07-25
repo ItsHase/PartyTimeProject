@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Underdog";
+  src: url(https://fonts.google.com/specimen/Underdog);
+}
+
+@import url(https://fonts.google.com/specimen/Underdog);
+
+.title {
+    background: url(img/background_header.jpg);
+    height: 4080px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Underdog';
+    font-size: 156px;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+.title-text {
+    justify-content: center;
+}
+
+.expectation {
+    background-color: #444444;
+    height: 2200px;
+}
+
+.whyus {
+    background-color: #5C5C5C;
+    height: 3200px;
+}
+
+.map {
+    background-color: #888888;
+    height: 2200px;
+}
+
+.services {
+    background-color: #5C5C5C;
+    height: 3200px;
+}
+
+.footer {
+    background-color: #303030;
+    height: 900px;
+    width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+#carousel-container {
+    background-color: #5C5C5C;
+}
